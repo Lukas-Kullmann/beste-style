@@ -1,0 +1,11 @@
+.pm_alert, div.error {
+  color: #ccc;
+  background-color: #563E3E;
+  border: 1px solid #E26A6A;
+  border-radius: 0;
+}
+
+.pm_alert a, .li a {
+  color: #E26A6A !important;
+  font-weight: bold;
+}

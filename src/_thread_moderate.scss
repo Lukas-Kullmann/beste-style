@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a[href^="moderation.php?action=closety"] img, a[href^="moderation.php?action=openty"] img {
+  display: none;
+}
+
+a[href^="moderation.php?action=closety"]:before, a[href^="moderation.php?action=openty"]:before {
+  color: white;
+  background-color: #222;
+  border: 1px solid black;
+  display: inline-block;
+  font-family: 'FontAwesome', Tahoma, sans-serif;
+  font-size: 14px;
+  padding: 4px 8px;
+  margin-top: 2px;
+}
+
+a[href^="moderation.php?action=closety"]:before {
+  content: "\f023 \a0\a0 Schließen";
+}
+
+a[href^="moderation.php?action=openty"]:before {
+  content: "\f13e \a0\a0 Öffnen";
+}

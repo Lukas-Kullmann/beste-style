@@ -1,0 +1,25 @@
+html, body {
+  background: #111 !important;
+}
+
+input, select {
+  border-radius: 0 !important;
+}
+
+#header #logo {
+  background: #333 !important;
+}
+
+.navigation {
+  &, &.active {
+    color: #ccc !important;
+    margin-bottom: 10px !important;
+  }
+}
+#content {
+  padding: 20px !important;
+
+  .wrapper > br:first-child {
+    display:none !important;
+  }
+}

@@ -1,0 +1,83 @@
+.spoiler_body {
+  border: 1px solid #000;
+  color: #ccc;
+}
+
+blockquote,
+.codeblock {
+  border: none!important;
+  border-radius: 0!important;
+  background: #111!important;
+}
+
+.editor_control_bar {
+  background: #111!important;
+  border: none!important;
+}
+
+div.post.classic {
+  background: #222!important;
+}
+
+.post_controls {
+  background: #111!important;
+  border: none!important;
+}
+
+.post_content {
+  color: #ccc!important;
+  border-left: 1px solid #000!important;
+}
+
+.post {
+  border-left: 1px solid #000!important;
+}
+
+.post_head {
+  border-bottom: 1px dotted #000!important;
+}
+
+.signature {
+  border-top: 1px dotted #000!important;
+}
+
+.post .post_author div.author_avatar img {
+  background: transparent !important;
+  border: none !important;
+}
+
+.author_information .largetext a {
+  color: #fff !important;
+}
+
+textarea {
+  background: #111 !important;
+  color: #ccc !important;
+  border-radius: 0 !important;
+  border-color: #000 !important;
+}
+
+form#quick_reply_form {
+  clear: both;
+}
+
+input[type="text"]{
+  border:1px solid #000!important;
+  color: grey!important;
+  background-color: #2d2d2d!important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select {
+  border:1px solid #000!important;
+  color: grey!important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat right;
+  padding-right:14px;
+}
+
+.sceditor-container{
+  background: #111 none repeat scroll 0 0 padding-box;
+}

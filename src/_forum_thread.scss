@@ -1,0 +1,78 @@
+.inline_row .trow1 .author.smalltext, .inline_row .trow2 .author.smalltext{
+  text-align: left;
+}
+
+.inline_row .trow1 .author.smalltext a, .inline_row .trow2 .author.smalltext a{
+  text-align: left;
+  color: #E26A6A!important;
+}
+
+.thread_status {
+  display: inline-block;
+  width: 0.5em;
+  height: 0;
+  background-image: none!important;
+  background-repeat: no-repeat;
+
+  &:before {
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 2px;
+    content: "";
+    display: block;
+    height: 10px;
+    margin: -7px -10px -10px;
+    width: 10px;
+  }
+
+  &.dot_newfolder,
+  &.dot_newhotfolder,
+  &.newhotfolder,
+  &.newfolder,
+  &.newlockfolder,
+  &.newhotlockfolder,
+  &.dot_newlockfolder,
+  &.dot_newhotlockfolder {
+
+    &:before {
+      border-style: solid;
+    }
+  }
+
+  &.dot_newfolder, &.dot_newhotfolder {
+    &:before {
+      box-shadow: 0 0 3pt 1pt #3FC380;
+    }
+  }
+
+  &.dot_newfolder, &.dot_newhotfolder, &.dot_hotfolder, &.dot_folder {
+    &:before {
+      border-color: #3FC380;
+    }
+  }
+
+  &.newfolder, &.newhotfolder {
+    &:before {
+      box-shadow: 0 0 3pt 1pt #E26A6A;
+    }
+  }
+
+  &.newfolder, &.newhotfolder, &.hotfolder, &.folder {
+    &:before {
+      border-color: #E26A6A;
+    }
+  }
+
+  &.dot_newlockfolder, &.dot_newhotlockfolder, &.newlockfolder, &.newhotlockfolder {
+    &:before {
+      box-shadow: 0 0 3pt 1pt #CCC;
+    }
+  }
+
+  &.dot_newlockfolder, &.dot_newhotlockfolder, &.dot_hotlockfolder, &.dot_lockfolder, &.newlockfolder, &.newhotlockfolder, &.hotlockfolder, &.lockfolder {
+    &:before {
+      border-color: #CCC;
+    }
+  }
+}

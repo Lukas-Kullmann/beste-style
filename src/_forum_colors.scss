@@ -1,0 +1,103 @@
+#content {
+  background: #333 !important;
+  color: #fff !important;
+}
+
+#header #panel .lower {
+  padding: 10px !important;
+  background: #111 !important;
+  border: none !important;
+}
+
+.pagination .pagination_current {
+  color: #ccc !important;
+}
+
+.trow1, .trow2 {
+  background: #222 !important;
+  border: 1px solid #000 !important;
+  border-top: none !important;
+  border-right: none !important;
+  color: #ccc !important;
+
+  &, & a {
+    color: #ccc !important;
+  }
+
+  &.scaleimages a {
+    color: #E26A6A !important;
+  }
+}
+
+a {
+  color: #E26A6A!important;
+}
+
+.pagination a {
+  background: #222!important;
+  border-color: #000!important;
+  color: #eee!important;
+  border-radius: 0!important;
+}
+
+.trow_sep {
+  background: #111!important;
+  color: #888!important;
+  border: none!important;
+}
+
+.tborder {
+  border: 1px solid #000!important;
+  border-radius: 0!important;
+  padding: 0!important;
+}
+
+.button,
+.postbit_email,
+.postbit_pm,
+.postbit_find,
+.postbit_quote,
+.postbit_multiquote,
+.postbit_report,
+.postbit_website,
+.postbit_purgespammer,
+.postbit_edit,
+.postbit_qdelete,
+.postbit_warn,
+.postbit_multiquote_on {
+  background: #222!important;
+  border-color: #000!important;
+  color: #eee!important;
+  border-radius: 0!important;
+}
+
+table{
+  color: #ccc;
+}
+
+/*NSFW*/
+.trow1 font strong, .trow2 font strong, .active font strong {
+  color: #ee3737 !important;
+}
+
+.tfoot,
+.thead {
+  background: #111 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.tborder tbody tr:last-child td:last-child,
+.tborder tbody tr:last-child td:first-child {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+#footer > div {
+  background: #111 !important;
+  border-color: #000 !important;
+}
+
+body[contenteditable=true] div {
+  color: #ccc !important;
+}
