@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 #content {
   background: #333 !important;
   color: #fff !important;
@@ -333,22 +339,13 @@ input[type="text"] {
 select {
   border: 1px solid #000 !important;
   color: grey !important;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat right;
-  padding-right: 14px;
+  background-color: transparent;
 }
 
 .sceditor-container {
   background: #111 none repeat scroll 0 0 padding-box;
 }
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
 a[href^="moderation.php?action=closety"] img, a[href^="moderation.php?action=openty"] img {
   display: none;
 }
