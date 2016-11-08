@@ -180,7 +180,7 @@ input, select {
   background: #333 !important;
 }
 
-.navigation, .navigation.active {
+.navigation, .navigation .active {
   color: #ccc !important;
   margin-bottom: 10px !important;
 }

@@ -11,7 +11,7 @@ input, select {
 }
 
 .navigation {
-  &, &.active {
+  &, .active {
     color: #ccc !important;
     margin-bottom: 10px !important;
   }
