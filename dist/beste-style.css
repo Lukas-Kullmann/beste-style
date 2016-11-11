@@ -372,4 +372,21 @@ a[href^="moderation.php?action=openty"]:before {
   content: "\f13e \a0\a0 Öffnen";
 }
 
+@media print {
+  #header, #quick_reply_form, #footer, #quick_reply_form ~ *, .tfoot, .new_reply_button, a[href^="moderation.php"] {
+    display: none !important;
+  }
+
+  .post_controls {
+    display: none;
+  }
+
+  .post.classic {
+    border-bottom: 1px solid black;
+  }
+  .post.classic .post_content {
+    min-height: 0;
+  }
+}
+
 /*# sourceMappingURL=beste-style.css.map */

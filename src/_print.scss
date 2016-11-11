@@ -1,0 +1,17 @@
+@media print {
+  #header, #quick_reply_form, #footer, #quick_reply_form ~ *, .tfoot, .new_reply_button, a[href^="moderation.php"] {
+    display: none !important;
+  }
+
+  .post_controls {
+    display: none;
+  }
+
+  .post.classic {
+    border-bottom: 1px solid black;
+
+    .post_content {
+      min-height: 0;
+    }
+  }
+}
